@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type:none;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color:#111
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+}
+div {
+    border: 2px solid blue;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 33%;
+    float: left;
+}
+
+h4 {
+    font-size: 30px;
+}
+#country-1 {
+    background-color: bisque;
+}
+#country-2 {
+    background-color: greenyellow;
+}
+#country-3 {
+    background-color:darkgray;
+}

@@ -1,0 +1,41 @@
+img {
+
+    width: 200px;
+    height: 200px;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+li {
+    color: green;
+}
+
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: skyblue;
+}
+
+table tr:nth-child(odd) td {
+    background-color: darkblue;
+}
+
+#sample {
+    background-color: skyblue;
+}
+
+#complex {
+    background-color: aquamarine;
+}
+
+.simple-div {
+
+    color: white;
+    font-size: 20px;
+}
